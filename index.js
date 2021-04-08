@@ -59,7 +59,14 @@ class PointsBasedLeague extends League {
       }
 }
 
-const premierLeagueTeams = ['Chelsea', 'Arsenal', 'Crystal Palace', 'Manchester United', 'Fullam', 'Wolves']
+const liverpoolTeams = ['Liverpool', 'Everton']
+const manchesterTeams = ['Manchester City', 'Manchester United']
+const londonTeams = ['Arsenal', 'Chelsea', 'Fulham', 'West Ham', 'Tottenham', 'Crystal Palace']
+const premierLeagueTeams = [
+    ...liverpoolTeams, 
+    ...manchesterTeams, 
+    ...londonTeams
+]
 const config = {pointsPerWin : 2}
 const premier = new PointsBasedLeague('Premier League', premierLeagueTeams, config)
 
