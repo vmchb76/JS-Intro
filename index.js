@@ -3,7 +3,8 @@ import FootballLeague from './classes/PointsBasedLeague.js'
 import { premierLeagueTeams } from './teams.js'
 
 const config = {pointsPerWin : 2}
-const premier = new FootballLeague('Premier League', premierLeagueTeams, config)
+// const premier = new FootballLeague('Premier League', premierLeagueTeams, config)
+   const premier = new FootballLeague('Premier League', ['A', 'B', 'C', 'D'], config)
 
     /*function getTeamName(team) {
         console.log('Voy a conertir:', team.name)
@@ -15,16 +16,17 @@ const premier = new FootballLeague('Premier League', premierLeagueTeams, config)
     }*/
 
     const teamNames = premier.teams.map(team => team.name)
+
+    premier.scheduleMatchDays()
+    console.log(premier.matchDaySchedule)
     
-    teamNames.forEach(function (equipo) {
+    /*teamNames.forEach(function (equipo) {
         console.log(equipo)
        }
-    )
-
+    )*/
 
     //console.log(premier.teams)
     //console.log(teamNames)
-
 
     // Esto hace el map
     /*
@@ -43,8 +45,8 @@ const premier = new FootballLeague('Premier League', premierLeagueTeams, config)
     }
    */
 
-
-
     /* for(const team of premier.teams) {
          console.log(team.name)
      } */
+
+     const jornadas = [1, 2, 3, 4, 5, 6, 7]
