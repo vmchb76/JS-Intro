@@ -122,10 +122,7 @@ export default class League {
         this.initSchedule()
         this.setLocalTeams()
         this.setAwayTeams()
-<<<<<<< HEAD
-        this.fixLastTeamSchedule()
-=======
-          
->>>>>>> c23c878976d7e49833029521dab194d9070fb0d1
+        this.fixLastTeamSchedule()         
+
     }  
 }
