@@ -3,8 +3,8 @@ import FootballLeague from './classes/PointsBasedLeague.js'
 import { premierLeagueTeams } from './teams.js'
 
 const config = {pointsPerWin : 2}
-// const premier = new FootballLeague('Premier League', premierLeagueTeams, config)
-   const premier = new FootballLeague('Premier League', ['A', 'B', 'C', 'D'], config)
+const premier = new FootballLeague('Premier League', premierLeagueTeams, config)
+    //const premier = new FootballLeague('Premier League', ['A', 'B', 'C', 'D'], config)
 
     /*function getTeamName(team) {
         console.log('Voy a conertir:', team.name)
