@@ -4,6 +4,7 @@ import { premierLeagueTeams } from './teams.js'
 
 const config = {pointsPerWin : 2}
 // const premier = new FootballLeague('Premier League', premierLeagueTeams, config)
+// prueba
    const premier = new FootballLeague('Premier League', ['A', 'B', 'C', 'D'], config)
 
     /*function getTeamName(team) {

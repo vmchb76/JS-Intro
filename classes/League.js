@@ -103,6 +103,6 @@ export default class League {
         this.initSchedule()
         this.setLocalTeams()
         this.setAwayTeams()
-        
+          
     }  
 }
