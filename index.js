@@ -49,4 +49,4 @@ const config = {pointsPerWin : 2}
          console.log(team.name)
      } */
 
-     const jornadas = [1, 2, 3, 4, 5, 6, 7]
+     
